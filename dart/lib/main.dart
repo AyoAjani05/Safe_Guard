@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart'; // <--- Ensure this path
+import 'screens/home_page.dart'; // The new Landing Hub with GPS
 
 void main() {
   runApp(const EmergencyDirectoryApp());
@@ -49,7 +49,7 @@ class EmergencyDirectoryApp extends StatelessWidget {
 
       // --- INITIAL ROUTE ---
       // Starting with the HomePage (Landing/GPS Hub)
-      home: HomeScreen(),
+      home: const HomePage(),
     );
   }
 }
