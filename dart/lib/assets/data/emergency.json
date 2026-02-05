@@ -1,0 +1,544 @@
+{
+  "emergency_contacts": [
+    {
+      "name": "National Emergency (Police/Fire/Med)",
+      "phoneNumber": "112",
+      "category": "General",
+      "state": "Nationwide"
+    },
+    {
+      "name": "Police Control Room (Nationwide)",
+      "phoneNumber": "199",
+      "category": "Police",
+      "state": "Nationwide"
+    },
+    {
+      "name": "Federal Road Safety (FRSC)",
+      "phoneNumber": "122",
+      "category": "Road Safety",
+      "state": "Nationwide"
+    },
+    {
+      "name": "NCDC (Health Emergency)",
+      "phoneNumber": "07087110839",
+      "category": "Hospital",
+      "state": "Nationwide"
+    },
+    {
+      "name": "Abia Police Command",
+      "phoneNumber": "08035415408",
+      "category": "Police",
+      "state": "Abia"
+    },
+    {
+      "name": "Abia State Fire Service",
+      "phoneNumber": "08096001819",
+      "category": "Fire",
+      "state": "Abia"
+    },
+    {
+      "name": "Abia State Ambulance",
+      "phoneNumber": "08145068414",
+      "category": "Hospital",
+      "state": "Abia"
+    },
+    {
+      "name": "Adamawa Police Command",
+      "phoneNumber": "08089671313",
+      "category": "Police",
+      "state": "Adamawa"
+    },
+    {
+      "name": "Adamawa Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Adamawa"
+    },
+    {
+      "name": "Adamawa Health Line",
+      "phoneNumber": "112",
+      "category": "Hospital",
+      "state": "Adamawa"
+    },
+    {
+      "name": "Akwa Ibom Police Command",
+      "phoneNumber": "08039213071",
+      "category": "Police",
+      "state": "Akwa Ibom"
+    },
+    {
+      "name": "Akwa Ibom Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Akwa Ibom"
+    },
+    {
+      "name": "Akwa Ibom Health Service",
+      "phoneNumber": "112",
+      "category": "Hospital",
+      "state": "Akwa Ibom"
+    },
+    {
+      "name": "Anambra Police Command",
+      "phoneNumber": "07039194332",
+      "category": "Police",
+      "state": "Anambra"
+    },
+    {
+      "name": "Anambra State Fire",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Anambra"
+    },
+    {
+      "name": "Anambra Health Line",
+      "phoneNumber": "08030953771",
+      "category": "Hospital",
+      "state": "Anambra"
+    },
+    {
+      "name": "Bauchi Police Command",
+      "phoneNumber": "08151849417",
+      "category": "Police",
+      "state": "Bauchi"
+    },
+    {
+      "name": "Bauchi Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Bauchi"
+    },
+    {
+      "name": "Bayelsa Police Command",
+      "phoneNumber": "07034578208",
+      "category": "Police",
+      "state": "Bayelsa"
+    },
+    {
+      "name": "Bayelsa State Fire",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Bayelsa"
+    },
+    {
+      "name": "Benue Police Command",
+      "phoneNumber": "08066006475",
+      "category": "Police",
+      "state": "Benue"
+    },
+    {
+      "name": "Benue Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Benue"
+    },
+    {
+      "name": "Borno Police Command",
+      "phoneNumber": "08068075581",
+      "category": "Police",
+      "state": "Borno"
+    },
+    {
+      "name": "Borno Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Borno"
+    },
+    {
+      "name": "Cross River Police Command",
+      "phoneNumber": "08133568456",
+      "category": "Police",
+      "state": "Cross River"
+    },
+    {
+      "name": "C/River Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Cross River"
+    },
+    {
+      "name": "Delta Police Command",
+      "phoneNumber": "08036684974",
+      "category": "Police",
+      "state": "Delta"
+    },
+    {
+      "name": "Delta State Fire",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Delta"
+    },
+    {
+      "name": "Delta Health Line",
+      "phoneNumber": "08033521961",
+      "category": "Hospital",
+      "state": "Delta"
+    },
+    {
+      "name": "Ebonyi Police Command",
+      "phoneNumber": "07064515001",
+      "category": "Police",
+      "state": "Ebonyi"
+    },
+    {
+      "name": "Ebonyi Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Ebonyi"
+    },
+    {
+      "name": "Edo Police Command",
+      "phoneNumber": "08037646272",
+      "category": "Police",
+      "state": "Edo"
+    },
+    {
+      "name": "Edo State Fire",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Edo"
+    },
+    {
+      "name": "Ekiti Police Command",
+      "phoneNumber": "08062335577",
+      "category": "Police",
+      "state": "Ekiti"
+    },
+    {
+      "name": "Ekiti Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Ekiti"
+    },
+    {
+      "name": "Enugu Police Command",
+      "phoneNumber": "08032003702",
+      "category": "Police",
+      "state": "Enugu"
+    },
+    {
+      "name": "Enugu Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Enugu"
+    },
+    {
+      "name": "FCT Police Command",
+      "phoneNumber": "08061581938",
+      "category": "Police",
+      "state": "FCT"
+    },
+    {
+      "name": "Federal Fire Service HQ",
+      "phoneNumber": "08032003557",
+      "category": "Fire",
+      "state": "FCT"
+    },
+    {
+      "name": "National Hospital Abuja",
+      "phoneNumber": "08097520012",
+      "category": "Hospital",
+      "state": "FCT"
+    },
+    {
+      "name": "Gombe Police Command",
+      "phoneNumber": "08150567771",
+      "category": "Police",
+      "state": "Gombe"
+    },
+    {
+      "name": "Gombe Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Gombe"
+    },
+    {
+      "name": "Imo Police Command",
+      "phoneNumber": "08034773600",
+      "category": "Police",
+      "state": "Imo"
+    },
+    {
+      "name": "Imo Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Imo"
+    },
+    {
+      "name": "Jigawa Police Command",
+      "phoneNumber": "08075391069",
+      "category": "Police",
+      "state": "Jigawa"
+    },
+    {
+      "name": "Jigawa Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Jigawa"
+    },
+    {
+      "name": "Kaduna Police Command",
+      "phoneNumber": "08123822284",
+      "category": "Police",
+      "state": "Kaduna"
+    },
+    {
+      "name": "Kaduna Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Kaduna"
+    },
+    {
+      "name": "Kaduna Health Line",
+      "phoneNumber": "08035871662",
+      "category": "Hospital",
+      "state": "Kaduna"
+    },
+    {
+      "name": "Kano Police Command",
+      "phoneNumber": "08032419754",
+      "category": "Police",
+      "state": "Kano"
+    },
+    {
+      "name": "Kano Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Kano"
+    },
+    {
+      "name": "Kano Health Line",
+      "phoneNumber": "08039704476",
+      "category": "Hospital",
+      "state": "Kano"
+    },
+    {
+      "name": "Katsina Police Command",
+      "phoneNumber": "08075391255",
+      "category": "Police",
+      "state": "Katsina"
+    },
+    {
+      "name": "Katsina Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Katsina"
+    },
+    {
+      "name": "Kebbi Police Command",
+      "phoneNumber": "08038797644",
+      "category": "Police",
+      "state": "Kebbi"
+    },
+    {
+      "name": "Kebbi Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Kebbi"
+    },
+    {
+      "name": "Kogi Police Command",
+      "phoneNumber": "08075391335",
+      "category": "Police",
+      "state": "Kogi"
+    },
+    {
+      "name": "Kogi Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Kogi"
+    },
+    {
+      "name": "Kwara Police Command",
+      "phoneNumber": "07032069501",
+      "category": "Police",
+      "state": "Kwara"
+    },
+    {
+      "name": "Kwara Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Kwara"
+    },
+    {
+      "name": "Lagos Police Control Room",
+      "phoneNumber": "08035963919",
+      "category": "Police",
+      "state": "Lagos"
+    },
+    {
+      "name": "Lagos State Fire Service",
+      "phoneNumber": "08033234943",
+      "category": "Fire",
+      "state": "Lagos"
+    },
+    {
+      "name": "Lagos Ambulance (LASAMBUS)",
+      "phoneNumber": "08022887788",
+      "category": "Hospital",
+      "state": "Lagos"
+    },
+    {
+      "name": "Lagos Distress Call",
+      "phoneNumber": "767",
+      "category": "General",
+      "state": "Lagos"
+    },
+    {
+      "name": "Nasarawa Police Command",
+      "phoneNumber": "08123821571",
+      "category": "Police",
+      "state": "Nasarawa"
+    },
+    {
+      "name": "Nasarawa Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Nasarawa"
+    },
+    {
+      "name": "Niger Police Command",
+      "phoneNumber": "08081777498",
+      "category": "Police",
+      "state": "Niger"
+    },
+    {
+      "name": "Niger State Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Niger"
+    },
+    {
+      "name": "Ogun Police Command",
+      "phoneNumber": "08032136765",
+      "category": "Police",
+      "state": "Ogun"
+    },
+    {
+      "name": "Ogun Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Ogun"
+    },
+    {
+      "name": "Ondo Police Command",
+      "phoneNumber": "07034313903",
+      "category": "Police",
+      "state": "Ondo"
+    },
+    {
+      "name": "Ondo State Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Ondo"
+    },
+    {
+      "name": "Osun Police Command",
+      "phoneNumber": "08039537995",
+      "category": "Police",
+      "state": "Osun"
+    },
+    {
+      "name": "Osun State Fire Service",
+      "phoneNumber": "08122695959",
+      "category": "Fire",
+      "state": "Osun"
+    },
+    {
+      "name": "Oyo Police Command",
+      "phoneNumber": "08081768614",
+      "category": "Police",
+      "state": "Oyo"
+    },
+    {
+      "name": "Oyo State Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Oyo"
+    },
+    {
+      "name": "Oyo Health Line",
+      "phoneNumber": "08095394000",
+      "category": "Hospital",
+      "state": "Oyo"
+    },
+    {
+      "name": "Plateau Police Command",
+      "phoneNumber": "08126375938",
+      "category": "Police",
+      "state": "Plateau"
+    },
+    {
+      "name": "Plateau Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Plateau"
+    },
+    {
+      "name": "Rivers Police Command",
+      "phoneNumber": "08032003514",
+      "category": "Police",
+      "state": "Rivers"
+    },
+    {
+      "name": "Rivers Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Rivers"
+    },
+    {
+      "name": "Rivers Health Emergency",
+      "phoneNumber": "09046962204",
+      "category": "Hospital",
+      "state": "Rivers"
+    },
+    {
+      "name": "Sokoto Police Command",
+      "phoneNumber": "07068848035",
+      "category": "Police",
+      "state": "Sokoto"
+    },
+    {
+      "name": "Sokoto Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Sokoto"
+    },
+    {
+      "name": "Taraba Police Command",
+      "phoneNumber": "08140089863",
+      "category": "Police",
+      "state": "Taraba"
+    },
+    {
+      "name": "Taraba Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Taraba"
+    },
+    {
+      "name": "Yobe Police Command",
+      "phoneNumber": "07039301585",
+      "category": "Police",
+      "state": "Yobe"
+    },
+    {
+      "name": "Yobe Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Yobe"
+    },
+    {
+      "name": "Zamfara Police Command",
+      "phoneNumber": "08106580123",
+      "category": "Police",
+      "state": "Zamfara"
+    },
+    {
+      "name": "Zamfara Fire Service",
+      "phoneNumber": "112",
+      "category": "Fire",
+      "state": "Zamfara"
+    }
+  ]
+}
