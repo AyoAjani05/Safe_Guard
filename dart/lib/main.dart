@@ -18,6 +18,7 @@ class EmergencyDirectoryApp extends StatelessWidget {
       // This sets the "Emergency Red" branding globally as per your project theme
       theme: ThemeData(
         useMaterial3: true,
+        fontFamilyFallback: ['Sans-serif'], // Use system fonts only
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.red,
           primary: Colors.red,
