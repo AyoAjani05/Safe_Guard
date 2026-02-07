@@ -11,7 +11,7 @@ class EmergencyDirectoryApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Nigeria Emergency Directory',
+      title: 'SafeGuard Nigeria',
       debugShowCheckedModeBanner: false,
       
       // --- THEME CONFIGURATION ---
