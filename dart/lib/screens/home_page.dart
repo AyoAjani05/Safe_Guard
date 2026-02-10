@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http; // Added for HTTPS requests
 import 'dart:convert'; // Added for JSON decoding
+import 'state_selection_screen.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -62,7 +64,7 @@ class _HomePageState extends State<HomePage> {
           TextButton(
             onPressed: () {
               Navigator.pop(context);
-              // Navigator.push(context, MaterialPageRoute(builder: (context) => const StateSelectionScreen()));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => const StateSelectionScreen()));
             },
             child: const Text("NO, SELECT MANUALLY"),
           ),
@@ -83,7 +85,7 @@ class _HomePageState extends State<HomePage> {
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text("Auto-detect failed. Please select manually.")),
     );
-    // Navigator.push(context, MaterialPageRoute(builder: (context) => const StateSelectionScreen()));
+    Navigator.push(context, MaterialPageRoute(builder: (context) => const StateSelectionScreen()));
   }
 
   @override
