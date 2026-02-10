@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../data/emergency_data.dart'; 
-// import 'state_detail_screen.dart';
+import 'state_detail_screen.dart';
 
 class StateSelectionScreen extends StatefulWidget {
   const StateSelectionScreen({super.key});
@@ -68,12 +68,12 @@ class _StateSelectionScreenState extends State<StateSelectionScreen> {
                   itemCount: filteredStates.length,
                   itemBuilder: (context, index) {
                     return InkWell(
-                      // onTap: () => Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(
-                      //     builder: (context) => StateDetailScreen(stateName: filteredStates[index]),
-                      //   ),
-                      // ),
+                      onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => StateDetailScreen(stateName: filteredStates[index]),
+                        ),
+                      ),
                       child: Container(
                         decoration: BoxDecoration(
                           color: Colors.white,
