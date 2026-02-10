@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http; // Added for HTTPS requests
-import 'dart:convert'; // Added for JSON decoding
+import 'package:http/http.dart' as http; 
+import 'dart:convert'; 
 import 'state_selection_screen.dart';
-
+import 'state_detail_screen.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -12,10 +12,8 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  // 1. Loading state to show the spinner
   bool _isLoading = false;
 
-  // 2. Function to handle detection via HTTPS (Works on Vercel)
   Future<void> _handleAutoDetection() async {
     setState(() => _isLoading = true);
 
@@ -71,7 +69,7 @@ class _HomePageState extends State<HomePage> {
           ElevatedButton(
             onPressed: () {
               Navigator.pop(context);
-              // Navigator.push(context, MaterialPageRoute(builder: (context) => StateDetailScreen(stateName: state)));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => StateDetailScreen(stateName: state)));
             },
             style: ElevatedButton.styleFrom(backgroundColor: Colors.red, foregroundColor: Colors.white),
             child: const Text("YES, PROCEED"),
