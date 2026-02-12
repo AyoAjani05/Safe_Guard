@@ -3,6 +3,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert'; 
 import 'state_selection_screen.dart';
 import 'state_detail_screen.dart';
+import 'contact_us_screen.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -91,12 +92,13 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("SafeGuard Nigeria", 
-        style: TextStyle(color: Colors.red, fontWeight: FontWeight.bold)),
+        style: TextStyle(color: Colors.red, fontWeight: FontWeight.w900)),
         centerTitle: true,
         backgroundColor: Colors.white,
         elevation: 1,
         iconTheme: const IconThemeData(color: Colors.red)
       ),
+      drawer: _buildAppDrawer(),
       body: Stack(
         children: [
           SingleChildScrollView(
@@ -171,6 +173,22 @@ class _HomePageState extends State<HomePage> {
           elevation: 0,
           disabledBackgroundColor: Colors.red.withOpacity(0.6), // Stay red-ish even when disabled
         ),
+      ),
+    );
+  }
+
+  Widget _buildAppDrawer() {
+    return Drawer(
+      child: ListView(
+        padding: EdgeInsets.zero,
+        children: [
+          const DrawerHeader(decoration: BoxDecoration(color: Colors.red), child: Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisAlignment: MainAxisAlignment.start, children: [Icon(Icons.emergency, color: Colors.white, size: 40),SizedBox(width: 12), Text('SafeGuard', style: TextStyle(color: Colors.white,fontSize: 18,fontWeight: FontWeight.bold,fontFamily: 'Montserrat',),),],),),
+          ListTile(leading: const Icon(Icons.home), title: const Text('Home'), onTap: () => Navigator.pop(context)),
+          ListTile(leading: const Icon(Icons.map_outlined), title: const Text('Browse All States'), onTap: () { Navigator.pop(context); Navigator.push(context, MaterialPageRoute(builder: (context) => const StateSelectionScreen())); }),
+          // ListTile(leading: const Icon(Icons.health_and_safety_outlined), title: const Text('Crisis Response Guide'), onTap: () { Navigator.pop(context); Navigator.push(context, MaterialPageRoute(builder: (context) => const InfographicsScreen())); }),
+          ListTile(leading: const Icon(Icons.message_outlined), title: const Text('Contact Us'), onTap: () { Navigator.pop(context); Navigator.push(context, MaterialPageRoute(builder: (context) => const ContactUsScreen())); }),
+          // ListTile(leading: const Icon(Icons.info_outline), title: const Text('About Us'), onTap: () { Navigator.pop(context); Navigator.push(context, MaterialPageRoute(builder: (context) => const AboutUsScreen())); }),
+        ],
       ),
     );
   }
