@@ -27,19 +27,22 @@ The **Emergency Contact Directory** will be a cross-platform web application bui
 ## Proposed Project Structure
 
 ```text
-lib/
-├── main.dart          # Web app entry point & routing
-├── models/            # Data structures for States and Agencies
-├── views/             # Responsive layouts (Desktop vs Mobile)
-├── widgets/           # Search bars, contact cards, and buttons
-└── assets/
-    └── data/          # JSON data containing contacts for all states
+Safe_Guard/
+└── lib/
+    ├── main.dart                 # App entry point & Custom font family Theme
+    ├── home_page.dart              # Landing page (contains Geo/IP logic)
+    ├── state_selection_screen.dart # Directory for all 36 States + FCT
+    ├── state_detail_screen.dart    # Detailed agency contacts per state
+    ├── about_us_screen.dart        # Project mission & info
+    ├── contact_us_screen.dart      # Feedback & external link logic
+    └── infographics_screen.dart    # Crisis response visual guides
+└── fonts/                        # Custom font family files (weights 200-900)
 
 ```
 
 ##  Development Roadmap
 
-* [ ] Compile a comprehensive database of emergency numbers for all states.
-* [ ] Develop the Flutter Web responsive grid layout.
-* [ ] Implement search and state-filtering logic.
+* [x] Compile a comprehensive database of emergency numbers for all states.
+* [x] Develop the Flutter Web responsive grid layout.
+* [x] Implement search and state-filtering logic.
 * [ ] Optimize the UI for print-friendly CSS/Media queries.
