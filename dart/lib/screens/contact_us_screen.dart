@@ -48,7 +48,7 @@ class ContactUsScreen extends StatelessWidget {
               title: "View Source Code",
               subtitle: "GitHub Repository",
               color: Colors.black,
-              onTap: () => _launchURL('https://www.google.com/search?q=go+and+write+your+own+code&sca_esv=bf53f4a5ff9fe53b&ei=aU19ac6FEPKChbIPsqbdYQ&ved=0ahUKEwiO3s2zw7SSAxVyQUEAHTJTNwwQ4dUDCBE&uact=5&oq=go+and+write+your+own+code&gs_lp=Egxnd3Mtd2l6LXNlcnAiGmdvIGFuZCB3cml0ZSB5b3VyIG93biBjb2RlMgUQIRifBTIFECEYnwVIlmdQAFi4VnAHeACQAQGYAYAEoAHLPKoBDDAuMy4yNy4xLjAuMbgBA8gBAPgBAZgCJqAC8jqoAgrCAhYQABiABBhDGLQCGOcGGIoFGOoC2AEBwgIWEC4YgAQYQxi0AhjnBhiKBRjqAtgBAcICChAAGIAEGEMYigXCAgsQABiABBixAxiDAcICERAuGIAEGLEDGNEDGIMBGMcBwgIIEAAYgAQYsQPCAg4QABiABBixAxiDARiKBcICDhAuGIAEGLEDGIMBGIoFwgIWEC4YgAQYsQMY0QMYQxiDARjHARiKBcICEBAAGIAEGLEDGEMYgwEYigXCAg0QABiABBixAxhDGIoFwgIFEAAYgATCAgUQLhiABMICCxAAGIAEGLEDGIoFwgIIEC4YgAQYsQPCAgoQLhiABBhDGIoFwgINEC4YgAQYsQMYQxiKBcICEBAuGIAEGNEDGEMYxwEYigXCAgQQABgDwgIJEAAYgAQYChgLwgIJEC4YgAQYChgLwgIGEAAYFhgewgIIEAAYFhgKGB7CAgsQABiABBiGAxiKBcICBRAAGO8FwgIIEAAYCBgNGB7CAggQABiiBBiJBcICBRAhGKABwgIIEAAYgAQYogSYAwvxBfI8ubxJV4NyugYECAEYB5IHCDcuMS4yOC4yoAf46QGyBwgwLjEuMjguMrgHtTrCBwgwLjQuMjkuNcgH4gGACAA&sclient=gws-wiz-serp'),
+              onTap: () => _launchURL('https://github.com/AyoAjani05/Safe_Guard'),
             ),
             
             const SizedBox(height: 40),
