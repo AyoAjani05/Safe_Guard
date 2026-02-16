@@ -1,0 +1,5 @@
+{
+  "installCommand": "if [ ! -d \"flutter\" ]; then git clone https://github.com/flutter/flutter.git -b stable; fi && ./flutter/bin/flutter doctor && ./flutter/bin/flutter config --enable-web",
+  "buildCommand": "./flutter/bin/flutter build web --web-renderer html --no-web-resources-cdn",
+  "outputDirectory": "build/web"
+}
