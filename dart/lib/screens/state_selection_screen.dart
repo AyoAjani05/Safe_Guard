@@ -60,7 +60,7 @@ class _StateSelectionScreenState extends State<StateSelectionScreen> {
               : GridView.builder(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2,
+                    crossAxisCount: 3,
                     crossAxisSpacing: 12,
                     mainAxisSpacing: 12,
                     childAspectRatio: 2.2,

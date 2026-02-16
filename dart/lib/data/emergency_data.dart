@@ -45,7 +45,7 @@ List<Contact> emergencyDatabase = [
 
   // --- CROSS RIVER ---
   Contact(name: "Cross River Police Command", phoneNumber: "08133568456", category: "Police", state: "Cross River"),
-  Contact(name: "C/River Fire Service", phoneNumber: "112", category: "Fire", state: "Cross River"),
+  Contact(name: "Cross River Fire Service", phoneNumber: "112", category: "Fire", state: "Cross River"),
 
   // --- DELTA ---
   Contact(name: "Delta Police Command", phoneNumber: "08036684974", category: "Police", state: "Delta"),

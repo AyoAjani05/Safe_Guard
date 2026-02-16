@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="SafeGuard - Emergency Contact Directory">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="icon" type="image/png" href="favicon.png"/>
 
   <title>SafeGuard Nigeria</title>
@@ -14,21 +13,32 @@
     body {
       background-color: #fcfcfc;
       margin: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
       height: 100vh;
       width: 100vw;
       font-family: 'Segoe UI', sans-serif;
       overflow: hidden;
     }
 
+    /* FIX 1: Use position fixed to stay on top of the Flutter app */
     #loading-indicator {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
       display: flex;
       flex-direction: column;
+      justify-content: center;
       align-items: center;
-      transition: opacity 0.5s ease-out;
+      background-color: #fcfcfc;
+      z-index: 99999; /* Ensure it stays on top */
+      transition: opacity 0.8s ease-out;
+    }
+
+    /* FIX 2: Allow clicks to pass through once we start fading */
+    #loading-indicator.fading {
+      opacity: 0;
+      pointer-events: none; 
     }
 
     .pulse-logo {
@@ -38,7 +48,6 @@
       display: flex; justify-content: center; align-items: center;
       position: relative;
       animation: bounce 2s infinite ease-in-out;
-      z-index: 10;
     }
 
     .pulse-logo i { color: white; font-size: 42px; font-weight: 900; font-style: normal; }
@@ -71,20 +80,23 @@
     {{flutter_bootstrap_js}}
 
     window.addEventListener('load', function(ev) {
-      // This is the "Manual" bootstrapper that ignores the internet
       _flutter.loader.load({
         onEntrypointLoaded: async function(engineInitializer) {
           const appRunner = await engineInitializer.initializeEngine({
-            // FORCE HTML mode: This stops the CanvasKit.js fetch error
             renderer: "html", 
           });
+          
           await appRunner.runApp();
 
-          // Your existing loader removal logic
+          // FIX 3: Robust removal logic
           const loader = document.getElementById('loading-indicator');
           if (loader) {
-            loader.style.opacity = '0';
-            setTimeout(() => loader.remove(), 500);
+            loader.classList.add('fading'); // Trigger CSS transition
+            setTimeout(() => {
+              loader.remove();
+              // Clean up body overflow to allow scrolling if the app needs it
+              document.body.style.overflow = 'visible';
+            }, 800);
           }
         }
       });

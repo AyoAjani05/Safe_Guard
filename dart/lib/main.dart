@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 import 'screens/home_page.dart'; // The new Landing Hub with GPS
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-
   runApp(const EmergencyDirectoryApp());
 }
+
 class EmergencyDirectoryApp extends StatelessWidget {
   const EmergencyDirectoryApp({super.key});
 
