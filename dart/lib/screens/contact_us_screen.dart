@@ -40,7 +40,7 @@ class ContactUsScreen extends StatelessWidget {
               title: "Email Us",
               subtitle: "e_link_group_2_project@gmail.com",
               color: Colors.blue,
-              onTap: () => _launchURL('mailto:e_link_group_2_project@gmail.com?subject=E-Link App Feedback'),
+              onTap: () => _launchURL('mailto:ayooajani99@gmail.com?subject=SafeGuard App Feedback'),
             ),
             
             _contactCard(
